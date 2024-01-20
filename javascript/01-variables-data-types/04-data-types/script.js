@@ -1,44 +1,31 @@
 // String
-const firstName = 'Sara';
+const firstName = "Sara";
 
-// Number
+// kiểu số
 const age = 30;
 const temp = 98.9;
 
-// Boolean
+// Kiểu đúng sai
 const hasKids = true;
 
-// Null
+// kiểu null
 const aptNumber = null;
 
-// Undefined
-// let score;
+// kiểu Undefined
 const score = undefined;
 
-// Symbol
-const id = Symbol('id');
-
-// BigInt
-const n = 9007199254740991n;
-
-// Reference Types
-
+// kiểu mảng
 const numbers = [1, 2, 3, 4];
 
+// kiểu object
 const person = {
-  name: 'Brad',
+  name: "Brad",
 };
 
 function sayHello() {
-  console.log('Hello');
+  console.log("Hello");
 }
 
 const output = sayHello;
 
 console.log(output, typeof output);
-
-// More info on why typeof null == object
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null
-
-//  More info on the "function object" type
-// https://262.ecma-international.org/5.1/#sec-11.4.3

@@ -2,11 +2,7 @@
 
 const arr = [1, 2, 3, 4, 5];
 
-// arr.reverse();
-// arr.push(0);
-// arr.unshift(6);
-
-// Same result as above
+// gán 6 vào cuối mảng, gán 0 vào đầu mảng , đảo ngược mảng
 arr.push(6);
 arr.unshift(0);
 arr.reverse();

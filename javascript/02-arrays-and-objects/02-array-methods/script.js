@@ -2,41 +2,41 @@ let x;
 
 const arr = [28, 38, 44, 29, 109];
 
-// push() - Push a value on to the end of the array
+// push() - thêm vào cuối mảng
 arr.push(100);
 
-// pop() - Take the last value off
+// pop() - xoá cuối mảng
 arr.pop();
 
-// unshift() - Add a value to the beginning of the array
+// unshift() - thêm vào đầu mảng
 arr.unshift(99);
 
-// shift() - Remove first value
+// shift() - xoá đầu mảng
 arr.shift();
 
-// reverse() - Reverse an array
+// reverse() -
 arr.reverse();
 
-// includes() - Check to see if something is in the array
+// includes() - kiểm tra xem có tồn tại trong mảng không
 x = arr.includes(445);
 
-// indexOf() - Return the index of the first match
+// indexOf() - tìm kiếm vị trí của phần tử trong mảng
 x = arr.indexOf(28);
 
-// Return array as a string
+// Return đổi mảng thảnh chuỗi
 x = arr.toString();
 x = arr.join();
 
-// slice() returns selected elements in an array, as a new array. Slice takes in the index of the first element and the index of the last element to be included in the new array.
+// slice() lấy giá trị từ vị trí số 1 đến số 4 nhưng k lấy vị trí số 4
 x = arr.slice(1, 4);
 
-// splice() works like slice() except it takes the index of the first element and the number of elements after that as a second argument. it also mutates the original array where slice() does not
+// splice() lấy toàn bộ giá trị tự 1 - 4
 x = arr.splice(1, 4);
 
-// Remove a single element/value - The following will mutate the original array by taking out the element with the index of 4. x will be equal to a new array with that plucked out value.
+// Remove a từ vị trí số 4 xoá 1 phần tử
 x = arr.splice(4, 1);
 
-// Chaining methods - Some methods can be chained depending on the return value.
+// Chainin lấy giá trị cửa các phần từ từ 1-4 và đổi thành chuỗi đảo ngược rồi lấy giá trị đầu tiên
 x = arr.slice(1, 4).reverse().toString().charAt(0);
 
 console.log(x);

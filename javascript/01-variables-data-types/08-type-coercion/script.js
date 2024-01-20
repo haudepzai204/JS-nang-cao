@@ -1,12 +1,12 @@
 let x;
 
-// Coerced to a string
-x = 5 + '5';
-
-x = 5 + Number('5');
+// nối chuỗi
+x = 5 + "5";
+// toán tử cộng
+x = 5 + Number("5");
 
 // Coerced to a number
-x = 5 * '5';
+x = 5 * "5";
 
 // null is coerced to 0 as it is a `falsy` value
 x = 5 + null;

@@ -1,30 +1,30 @@
-// Log number
+// hiển thị số
 console.log(100);
 
-// Log string
-console.log('Hello World');
+// hiển thị chữ
+console.log("Hello World");
 
-// Log multiple values
-console.log(20, 'Hello', true);
+// hiển thị nhiều loại dữ liệu
+console.log(20, "Hello", true);
 
-// Log a variable
+// hiển thị giá trị của biến a
 const x = 100;
 console.log(x);
 
-// Console error & warning
-console.error('Alert');
-console.warn('Warning');
+// hiển hị lỗi và cảnh báo
+console.error("Alert");
+console.warn("Warning");
 
-// Log object as table
-console.table({ name: 'Brad', email: 'brad@gmail.com' });
+// hiển thị đối tội dạng bảng
+console.table({ name: "Brad", email: "brad@gmail.com" });
 
-// Group console commands
-console.group('simple');
+// hiển thị theo nhóm
+console.group("simple");
 console.log(x);
-console.error('Alert');
-console.warn('Warning');
+console.error("Alert");
+console.warn("Warning");
 console.groupEnd();
 
-// Add CSS to logs
-const styles = 'padding: 10px; background-color: white; color: green';
-console.log('%cHello World', styles);
+// thêm dữ liệu vào console
+const styles = "padding: 10px; background-color: white; color: green";
+console.log("%cHello World", styles);

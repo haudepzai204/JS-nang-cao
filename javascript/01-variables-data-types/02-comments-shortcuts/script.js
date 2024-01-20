@@ -1,10 +1,5 @@
-// This is a single line of code
+// comment 1 dòng
 
 /*
-Multi-line comment
-console.log(100);
-
-console.log('Hello World');
-
-console.log(20, 'Hello', true);
+comment nhều dòng
 */

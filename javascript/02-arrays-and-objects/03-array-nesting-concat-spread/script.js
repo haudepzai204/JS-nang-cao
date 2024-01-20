@@ -1,40 +1,35 @@
 let x;
 
-const fruits = ['apple', 'pear', 'orange'];
-const berries = ['strawberry', 'blueberry', 'rasberry'];
+const fruits = ["apple", "pear", "orange"];
+const berries = ["strawberry", "blueberry", "rasberry"];
 
-// Nesting arrays
-
-// Nesting berries inside of fruits
 fruits.push(berries);
 
-// Now we can access 'blueberry' with the following
+// lấy giá trị từ bàng 2 chiều có tạo độ 3;1
 x = fruits[3][1];
 
-// Create a new variable and nest both arrays
+// khai báo 1 mảng 2 chiều
 const allFruits = [fruits, berries];
 
 x = allFruits[1][2];
 
-// concat() - Concatenate arrays
+// concat() -
 x = fruits.concat(berries);
 
-// spread operator (...) - Concatenate with
+// sao chép mảng, nối 2 mảng thành 1
 x = [...fruits, ...berries];
 
-// flat() - Flatten an array
+// flat() - chuyển toàn bộ thành mảng 1 chiều
 const arr = [1, 2, [3, 4, 5], 6, [7, 8]];
 x = arr.flat();
 
-// Static methods of Array object
-
-// isArray() - Check is is an array
+// isArray() - kiểm tra xem có phải array hay không
 x = Array.isArray(fruits);
 
-// from() - Create an array from an array like value
-x = Array.from('12345');
+// from() - tạo mảng từ chuỗi
+x = Array.from("12345");
 
-// of() - Create an array from a set of values
+// of() - taonj mảng từ các biến riêng biệt
 const a = 1;
 const b = 2;
 const c = 3;
