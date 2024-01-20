@@ -31,13 +31,4 @@ console.log(team);
 
 
 
-const  arr = [2,3,4];
-
-const [x,y,z] = arr;
-console.log(x,y,z);
-
-
-const netti = [2,4,[5,6]];
-const [i, ,[j,k]] = netti;
-console.log(i,j,k);
 
