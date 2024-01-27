@@ -1,28 +1,29 @@
-// Define a function
+// function không có tham số
 function sayHello() {
-  console.log('Hello World');
+  console.log("Hello World");
 }
 
-// Invoke, execute or call a function
+// gọi function
 sayHello();
 
-// Define a function with parameters
+// function có tham số
 function add(num1, num2) {
   console.log(num1 + num2);
 }
 
-// Invoke function with arguments
+// chạy function
 add(5, 10);
 
 // Parameters vs. Arguments
 // Parameters are the names of the variables that are used to pass data into a function.
 // Arguments are the values that are passed into the function
 
-// Returning a value
+// hàm có giá trị truyền về
+
 function subtract(num1, num2) {
   return num1 - num2;
 
-  console.log('After the return');
+  console.log("After the return");
 }
 
 // Assign the returned value to a variable
